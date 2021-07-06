@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <title>Tuấn Nguyễn</title>
+    <meta name="title" content="" />
+    <meta name="description" content="" />
+    <meta property="og:locale" content="vi" />
+    <meta property="og:type" content="article" />
+    <meta property="og:title" content="Trang chủ" />
+    <meta property="og:description" content="" />
+    <meta property="og:url" content="" />
+    <meta property="og:site_name" content="" />
+    <meta property="og:image" content="" />
+    <link rel="stylesheet" href="dest/stylelibs.min.css">
+    <link rel="stylesheet" href="dest/style.min.css">
+    <link rel="stylesheet" href="dest/fonts.css">
+
+</head>
+
+<body>
+    <main>
+        <h1>Nguyễn Anh Tuấn</h1>
+        <style>
+            #mask {
+                background-color: #000;
+                width: 100vw;
+                height: 100vh;
+                position: fixed;
+                top: 0;
+                left: 0;
+                z-index: 999;
+                display: none;
+            }
+
+            .mask .mask--cont {
+                position: absolute;
+                bottom: 10px;
+                left: 10px;
+
+            }
+
+            @media only screen and (orientation: portrait) {
+                #mask {
+                    display: block;
+                }
+            }
+        </style>
+        <figure id="mask" class="mask">
+            <div class="mask--cont">Not allowed</div>
+        </figure>
+    </main>
+    <script type="text/javascript" src="dest/jsmain.min.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+</body>
+
+</html>
